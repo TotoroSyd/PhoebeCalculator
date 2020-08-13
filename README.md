@@ -10,6 +10,7 @@
 <p>Areas I need support:</p>
 <ul>
     <li>Refactor event listener</li>
+    <li>Apply previousKeyType</li>
     <li>Add % and () </li>
 </ul>
 <h3>Tools</h3>
