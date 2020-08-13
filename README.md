@@ -1,4 +1,4 @@
-# PhoebeCalculator
+# Calculator
 <h3>Status</h3>
 <hr>
 <p>Completed MVP. Open for more improvement.</p>
