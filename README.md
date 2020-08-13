@@ -9,7 +9,7 @@
 <hr>
 <p>Areas I need support:</p>
 <ul>
-    <li>Refactor the script using class</li>
+    <li>Refactor event listener</li>
     <li>Add % and () </li>
 </ul>
 <h3>Tools</h3>
@@ -22,4 +22,7 @@
         </ul>
     <li>JavaScript</li>
 </ul>
+<h3>Acknowledgement</h3>
+<hr>
+<p>Tutorial from<a href="https://www.freecodecamp.org/news/how-to-build-an-html-calculator-app-from-scratch-using-javascript-4454b8714b98/">Zell Liew</a></p>
 
