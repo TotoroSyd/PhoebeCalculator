@@ -1,6 +1,6 @@
 "use strict";
-import Operation1 from "./operation.js";
-import Display from "./display.js";
+import Operation1 from "/parcel/operation.js";
+import Display from "/parcel/display.js";
 
 //================Execution=================
 // Ensure everything is ready
@@ -18,15 +18,18 @@ document.addEventListener("DOMContentLoaded", () => {
     display.displayScreen(dec_input);
   };
   const equalButtonClicked = function () {
-    let result = operation1.equal();
+    let f_num = parseFloat(operation1.first_input);
+    let s_num = parseFloat(operation1.second_input);
+    let oper = operation1.operator;
+    let result = operation1.calculate(f_num, s_num, oper);
     display.displayScreen(result);
+    operation1.reset();
   };
   const acButtonClicked = function () {
     display.displayScreen(0);
-    operation1.first_input = null;
-    operation1.second_input = null;
-    operation1.operator = null;
+    operation1.reset();
   };
+
   // queryselector the parent container of the buttons
   const calculator__keys = document.querySelector(".calculator__keys");
   // Attach eventlistener to the parent container to listen to all events of children
@@ -52,7 +55,10 @@ document.addEventListener("DOMContentLoaded", () => {
           operation1.first_input !== null &&
           operation1.second_input !== null
         ) {
-          let input = operation1.calculate(action);
+          let f_num = parseFloat(operation1.first_input);
+          let s_num = parseFloat(operation1.second_input);
+          let oper = operation1.operator;
+          let input = operation1.calculate(f_num, s_num, oper);
           display.displayScreen(input);
         } else {
           return;
@@ -70,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       // if the button doesnt have 'data-action' value, it is a number
       else if (!action) {
-        const number = button_clicked.textContent;
+        const number = button_clicked.textContent; // is string type
         numberButtonClicked(number);
       }
     }
