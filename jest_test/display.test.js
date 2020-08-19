@@ -9,6 +9,10 @@ import {
 // adds special assertions like toHaveTextContent
 import "@testing-library/jest-dom/extend-expect";
 
+/* Reference:
+ https://testing-library.com/docs/dom-testing-library/example-intro
+ https://github.com/testing-library/jest-dom#tohavetextcontent */
+
 describe("content is shown on screen", () => {
   it(".calculator__display has content", () => {
     /* Jest doesnt run on the actual DOM in index.html. 
