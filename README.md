@@ -1,22 +1,29 @@
-# PhoebeCalculator
-JS Course Assessment - Calculator
-
-Rubric
-<h3>Technical - Calculator Acceptance Criteria</h3>
+# Calculator
+<h3>Status</h3>
+<hr>
+<p>Completed MVP. Open for more improvement.</p>
+<h3>Description</h3>
+<hr>
+<p>A calculator handling four basic mathematical operations (+ - x / ). It handles integer and decimal numbers only.</p>
+<h3>Contributing</h3>
+<hr>
+<p>Areas I need support:</p>
 <ul>
-    <li>The calculator has a JavaScript file with a function that connects each action button and sends an action string as parameter.</li>
-    <li>The calculator has a JavaScript file with a function that connects each numeric button and sends the number as a string as parameter.</li>
-    <li>The calculator displays selected numbers.</li>
-    <li>The calculator performs the basic mathematical operations (+ - x / ).</li>
-    <li.The calculator performs operations with decimal numbers.</li>
-    <li>The calculator clear to zero the current value.</li>
-    <li>The calculatror shows an error message when the user tries to divide by zero.</li>
+    <li>Refactor event listener</li>
+    <li>Apply previousKeyType</li>
+    <li>Add % and () </li>
 </ul>
+<h3>Tools</h3>
+<hr>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+        <ul>
+            <li>Grid</li>
+        </ul>
+    <li>JavaScript</li>
+</ul>
+<h3>Acknowledgement</h3>
+<hr>
+<p>Tutorial from<a href="https://www.freecodecamp.org/news/how-to-build-an-html-calculator-app-from-scratch-using-javascript-4454b8714b98/">Zell Liew</a></p>
 
-<h3>Technical - Coding Fluency</h3>
-<ul>
-    <li>Codes fluently and naturally.</li>
-    <li>Uses standard library functions and is able to describe their behaviour when asked.</li>
-    <li>Translates thoughts into code without any apparent difficulty. </li>
-    <li>When reading code, understands the general purpose of the code quickly.</li>
-<ul>
