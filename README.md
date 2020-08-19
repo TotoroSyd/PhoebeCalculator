@@ -9,7 +9,6 @@
 <hr>
 <p>Areas I need support:</p>
 <ul>
-    <li>Refactor event listener</li>
     <li>Apply previousKeyType</li>
     <li>Add % and () </li>
 </ul>
@@ -23,6 +22,12 @@
         </ul>
     <li>JavaScript</li>
 </ul>
+<h3>How to test</h3>
+<p>I use Jest to test the program.</p>
+<p>Additional testing library I use:</p>
+<a href="https://testing-library.com/docs/ecosystem-jest-dom">jest-dom</a>
+<h3>Netlify</h3>
+<a href="phoebe-calculator.netlify.app">Netlify</a>
 <h3>Acknowledgement</h3>
 <hr>
 <p>Tutorial from<a href="https://www.freecodecamp.org/news/how-to-build-an-html-calculator-app-from-scratch-using-javascript-4454b8714b98/">Zell Liew</a></p>
